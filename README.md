@@ -39,7 +39,7 @@ Output will be in segments.json at the current location
 
 
 
-Run 
+Run :
 	python main.py
 
 
