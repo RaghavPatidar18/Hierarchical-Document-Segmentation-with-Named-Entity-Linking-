@@ -1,0 +1,6 @@
+PyMuPDF==1.23.5
+groq==0.23.1
+langchain-groq==0.1.2
+python-dotenv==1.0.0
+numpy==1.26.34
+stanza

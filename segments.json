@@ -1,0 +1,270 @@
+[
+  {
+    "segment_level": 1,
+    "segment_title": "Raghav Patidar",
+    "segment_text": "Indore, India  +91 9926514128 |  r.patidar181001@gmail.com |  linkedin.com/in/raghav-patidar-997842210/",
+    "start_index": 0,
+    "end_index": 122,
+    "segment_date": null,
+    "segment_source": null,
+    "named_entities": {
+      "persons": [],
+      "organizations": [],
+      "locations": [
+        "India",
+        "Indore"
+      ],
+      "dates": []
+    }
+  },
+  {
+    "segment_level": 2,
+    "segment_title": "Education",
+    "segment_text": "",
+    "start_index": 122,
+    "end_index": 132,
+    "segment_date": null,
+    "segment_source": null,
+    "named_entities": {
+      "persons": [],
+      "organizations": [],
+      "locations": [],
+      "dates": []
+    }
+  },
+  {
+    "segment_level": 3,
+    "segment_title": "Indian Institute of Technology (IIT), Ropar",
+    "segment_text": "Ropar, India Bachelor of Technology, Computer Science and Engineering Aug 2020 - May 2024 • Courses: Data Structure and Algorithms, Software Engineering, Operating Systems, Computer Networks, Database and Management System, Blockchain Technology",
+    "start_index": 132,
+    "end_index": 422,
+    "segment_date": "May 2024",
+    "segment_source": null,
+    "named_entities": {
+      "persons": [],
+      "organizations": [
+        "Ropar"
+      ],
+      "locations": [
+        "India"
+      ],
+      "dates": [
+        "Aug 2020 - May 2024"
+      ]
+    }
+  },
+  {
+    "segment_level": 2,
+    "segment_title": "Skills",
+    "segment_text": "",
+    "start_index": 422,
+    "end_index": 429,
+    "segment_date": null,
+    "segment_source": null,
+    "named_entities": {
+      "persons": [],
+      "organizations": [],
+      "locations": [],
+      "dates": []
+    }
+  },
+  {
+    "segment_level": 3,
+    "segment_title": "Programming",
+    "segment_text": "C, C++,Java, Python, SQL, Javascript, GraphQL",
+    "start_index": 429,
+    "end_index": 487,
+    "segment_date": null,
+    "segment_source": null,
+    "named_entities": {
+      "persons": [],
+      "organizations": [
+        "GraphQL",
+        "SQL"
+      ],
+      "locations": [
+        "Java"
+      ],
+      "dates": []
+    }
+  },
+  {
+    "segment_level": 3,
+    "segment_title": "Framework/Tools",
+    "segment_text": "LangChain, Hugging Face, LLM , GraphDB, LangGraph, Scikit‑learn, TensorFlow, FastAPI, PyTorch",
+    "start_index": 487,
+    "end_index": 597,
+    "segment_date": null,
+    "segment_source": null,
+    "named_entities": {
+      "persons": [],
+      "organizations": [
+        "TensorFlow",
+        "GraphDB",
+        "FastAPI",
+        "PyTorch",
+        "Scikit‑learn",
+        "LangChain",
+        "LangGraph"
+      ],
+      "locations": [],
+      "dates": []
+    }
+  },
+  {
+    "segment_level": 3,
+    "segment_title": "Deployment",
+    "segment_text": "AWS, Docker, kubernetes, Streamlit, Chainlit",
+    "start_index": 597,
+    "end_index": 653,
+    "segment_date": null,
+    "segment_source": null,
+    "named_entities": {
+      "persons": [],
+      "organizations": [
+        "AWS"
+      ],
+      "locations": [
+        "Streamlit",
+        "Chainlit"
+      ],
+      "dates": []
+    }
+  },
+  {
+    "segment_level": 2,
+    "segment_title": "Work Experience",
+    "segment_text": "",
+    "start_index": 653,
+    "end_index": 669,
+    "segment_date": null,
+    "segment_source": null,
+    "named_entities": {
+      "persons": [],
+      "organizations": [],
+      "locations": [],
+      "dates": []
+    }
+  },
+  {
+    "segment_level": 3,
+    "segment_title": "SCA Technologies",
+    "segment_text": "Gurgaon, India Software Engineer June 2024 - Feb 2025 • Generic Log: Implemented custom logging feature according to service and functionality on the top of tomcat catalina using Spring Boot Slf4. Which reduces the production debug time by 50%. • Chatting Feature: Extended database procedures to implement role‑based chatting functionality within the product, ensuring secure and efficient communication at role level. • Production Release and Hotfixes: Resolved production‑level issues and implemented critical hotfixes to ensure system stability. Additionally, supported the deployment and demonstration of key features during the client presentation.",
+    "start_index": 669,
+    "end_index": 1341,
+    "segment_date": "June 2024",
+    "segment_source": null,
+    "named_entities": {
+      "persons": [],
+      "organizations": [],
+      "locations": [
+        "Gurgaon",
+        "India"
+      ],
+      "dates": [
+        "June 2024 - Feb 2025"
+      ]
+    }
+  },
+  {
+    "segment_level": 2,
+    "segment_title": "Projects",
+    "segment_text": "",
+    "start_index": 1341,
+    "end_index": 1350,
+    "segment_date": null,
+    "segment_source": null,
+    "named_entities": {
+      "persons": [],
+      "organizations": [],
+      "locations": [],
+      "dates": []
+    }
+  },
+  {
+    "segment_level": 3,
+    "segment_title": "QueryMind",
+    "segment_text": "Github Link Multi‑Agent Stateful RAG Chatbot • Multi‑source retrieval: Developed an advanced Retrieval‑Augmented Generation (RAG) pipeline for intelligent question answering, integrating multi‑source retrieval and LLM reasoning. • RAG‑Based Retrieval System: Architected a RAG pipeline to efficiently fetch information from multiple sources - a VectorStore (AstraDB) and Wikipedia API. • Query Router: Implemented dynamic query routing using LLaMA‑3.3‑70B (Open Source) to intelligently decide whether to fetch answers from the VectorStore or Wikipedia. • Graph‑Based Retrieval: Designed a state‑based retrieval workflow using LangGraph, ensuring efficient query processing.Constructed a con‑ ditional graph state machine that dynamically selects retrieval paths based on query intent.",
+    "start_index": 1350,
+    "end_index": 2146,
+    "segment_date": null,
+    "segment_source": null,
+    "named_entities": {
+      "persons": [],
+      "organizations": [
+        "AstraDB",
+        "VectorStore"
+      ],
+      "locations": [],
+      "dates": []
+    }
+  },
+  {
+    "segment_level": 3,
+    "segment_title": "Quora Duplicate",
+    "segment_text": "Github Link NLP Application | Data preprocessing + Feature Engineering + Model evaluation + scikit‑learn | Website • Duplicate Question Detection using NLP: Built an ML pipeline to identify semantic similarity between Quora question pairs using advanced text preprocessing, feature engineering, and machine learning models. • Custom Text Preprocessing: Applied advanced NLP techniques such as regex‑based normalization, HTML tag stripping (BeautifulSoup), con‑ traction expansion, stopword filtering (NLTK), and word count analysis to generate clean, tokenized input data. • Feature Engineering and Vectorization: Engineered over 30 semantic, syntactic, and fuzzy matching features such as word overlap and token similarity, and integrated them with a 3000‑dimensional Bag‑of‑Words vector using CountVectorizer for enriched text representation. • Modeling and Evaluation: Trained and evaluated Random Forest and XGBoost classifiers using scikit‑learn and XGBoost, achieving strong predictive accuracy with accuracy score and confusion matrix on validation data.",
+    "start_index": 2146,
+    "end_index": 3224,
+    "segment_date": null,
+    "segment_source": null,
+    "named_entities": {
+      "persons": [],
+      "organizations": [
+        "Random Forest",
+        "XGBoost"
+      ],
+      "locations": [],
+      "dates": []
+    }
+  },
+  {
+    "segment_level": 3,
+    "segment_title": "Gemma Fine‑Tuning",
+    "segment_text": "Github Link LoRA‑Based Fine‑Tuned LLM for Text Generation • Text Generation Model: Developed an instruction‑tuned text generation model by fine‑tuning GemmaCausalLM (2.2B parameters) using Low‑ Rank Adaptation (LoRA), optimizing compute efficiency for deployment on resource‑constrained environments. • Data Preperation: Integrated KerasNLP, Hugging Face Datasets, and Google Colab for dataset preprocessing, tokenization using GemmaTok‑ enizer, and optimized training using mixed‑precision computation (bfloat16/float32) to reduce memory footprint. • Model efficiency: Reducing trainable parameters from 2.61B to 2.93M and memory footprint from 9.75GB to 11.17MB using LoRA (Low‑Rank Adaptation) with rank=4, significantly lowering computational costs while preserving model performance.",
+    "start_index": 3224,
+    "end_index": 4031,
+    "segment_date": null,
+    "segment_source": null,
+    "named_entities": {
+      "persons": [],
+      "organizations": [
+        "Google Colab",
+        "LoRA"
+      ],
+      "locations": [],
+      "dates": []
+    }
+  },
+  {
+    "segment_level": 2,
+    "segment_title": "Open Source Contribution",
+    "segment_text": ". 5937/5864",
+    "start_index": 4031,
+    "end_index": 4067,
+    "segment_date": null,
+    "segment_source": null,
+    "named_entities": {
+      "persons": [],
+      "organizations": [],
+      "locations": [],
+      "dates": []
+    }
+  },
+  {
+    "segment_level": 3,
+    "segment_title": ",",
+    "segment_text": "InfiniFLow : Contributed to open source project working on RAG flows India 1",
+    "start_index": 4067,
+    "end_index": 4148,
+    "segment_date": null,
+    "segment_source": null,
+    "named_entities": {
+      "persons": [],
+      "organizations": [],
+      "locations": [
+        "India"
+      ],
+      "dates": []
+    }
+  }
+]
