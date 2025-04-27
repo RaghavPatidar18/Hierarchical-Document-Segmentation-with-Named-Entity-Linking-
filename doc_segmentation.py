@@ -49,6 +49,7 @@ class HierarchicalDocumentSegmenter:
                                 "text": text,
                                 "font": span["font"],
                                 "size": span["size"],
+                                "flags": span["flags"],
                                 "start_index": char_index - len(text),
                                 "end_index": char_index,
                                 "page": page_num
