@@ -2,9 +2,9 @@ from langchain_groq import ChatGroq
 import groq
 
 class VerifyWithLLM:
-    def __init__(self):
-        pass
-    
+    def __init__(self,llm_api_key):
+        self.llm_api_key=llm_api_key
+     
     def _verify_author_with_llm(self, candidate_author, context):
         """Use LLM to verify if a person mention is likely an author/contributor"""
         prompt = f"""

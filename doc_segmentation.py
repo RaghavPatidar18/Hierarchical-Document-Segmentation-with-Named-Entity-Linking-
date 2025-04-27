@@ -64,7 +64,7 @@ class HierarchicalDocumentSegmenter:
             char_index += 2
     
         self.full_text = "".join(full_text_parts)
-        
+        # print(self.full_text)
         return self.full_text
     
     def identify_candidate_headings_rule_based(self):
@@ -223,7 +223,9 @@ class HierarchicalDocumentSegmenter:
             for ent in sent.ents:
                 if ent.type == "PERSON" and ent.start_char < 200:  
                     # Verify with LLM this is likely an author
-                    return VerifyWithLLM._verify_author_with_llm(ent.text, segment_text[:1000])
+                    # print(ent.text)
+                    llmToCheck = VerifyWithLLM(self.llm_api_key)
+                    return llmToCheck._verify_author_with_llm(ent.text, segment_text[:1000])
         
         
         return None
