@@ -7,7 +7,7 @@ from verify_llm import VerifyWithLLM
 import stanza
 import os
 
-stanza_dir = os.path.expanduser("~/.stanza")
+stanza_dir = os.path.expanduser("~/.stanza") 
 if not os.path.exists(os.path.join(stanza_dir, "resources", "en")):
     stanza.download('en')
     print("stanza downloaded")
@@ -49,7 +49,6 @@ class HierarchicalDocumentSegmenter:
                                 "text": text,
                                 "font": span["font"],
                                 "size": span["size"],
-                                "flags": span["flags"],
                                 "start_index": char_index - len(text),
                                 "end_index": char_index,
                                 "page": page_num
